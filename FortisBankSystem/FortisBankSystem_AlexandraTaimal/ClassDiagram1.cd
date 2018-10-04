@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FortisBankSystem_AlexandraTaimal.bus.Account">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAIIEAACDAEAAAQBAABAAAAAgAAAAIAA=</HashCode>
+      <FileName>bus\Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="typeAccount" />
+      <Field Name="openedDate" />
+      <Field Name="customer" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FortisBankSystem_AlexandraTaimal.bus.Address">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACYIAAIHCAAAAIAAAACAAAIAgAAAII=</HashCode>
+      <FileName>bus\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FortisBankSystem_AlexandraTaimal.bus.CheckingAccount">
+    <Position X="4.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAAAAAAgAAAAIAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>bus\CheckingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FortisBankSystem_AlexandraTaimal.bus.Customer">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQACAEEAACAAAAAkAAAAAAAAAAIAAAAiAAAAIAAAAgA=</HashCode>
+      <FileName>bus\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FortisBankSystem_AlexandraTaimal.bus.Date">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAJAAAAAAEAAAAAAAAAAQAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>bus\Date.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FortisBankSystem_AlexandraTaimal.bus.SavingAccount">
+    <Position X="2" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAQAAAAAAABAIAAAAAAAAAAABABAAAAAAAAAAA=</HashCode>
+      <FileName>bus\SavingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FortisBankSystem_AlexandraTaimal.bus.Transaction">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAACAAAAgAAAEIAAAAAAAAAAAAAAAAAIAUAABAFE=</HashCode>
+      <FileName>bus\Transaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="account" />
+      <Field Name="typeTransaction" />
+      <Field Name="transactionDate" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="FortisBankSystem_AlexandraTaimal.bus.IPayable" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>bus\IPayable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FortisBankSystem_AlexandraTaimal.bus.EnumSelectType">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>bus\EnumSelectType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FortisBankSystem_AlexandraTaimal.bus.EnumTypeAccount">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAABAACACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bus\EnumTypeAccount.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FortisBankSystem_AlexandraTaimal.bus.EnumTypeTransaction">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>bus\EnumTypeTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

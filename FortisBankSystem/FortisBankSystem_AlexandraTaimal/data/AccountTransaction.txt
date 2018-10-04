@@ -1,0 +1,8 @@
+Account|333|1|Checking|900|2 - 3 - 2018|123|alexa|taimal|alexa@yahoo|51455555|lyon|3080|3|f4t3e5|montreal|quebec|canada
+Account|444|2|Saving|500|2 - 3 - 2018|456|john|rivera|john@gmail.com|514990099|lyon|3080|4|d4e3w2|montreal|quebec|canda
+Account|777|8|Credit|300|2 - 3 - 2018|678|eliza|rivera|eliza@yahoo.com|32189993|lyon|3080|4|g4e5r|montreal|quebec|canada
+Account|980|2|Currency|600|2 - 3 - 2018|786|thiago|rivera|thiago@yahoo.com|583242425|lyon|3080|5|f4e3f4|montreal|quebec|canada
+Transaction|543|333|1|Checking|900|2 - 3 - 2018|hello alexa|900|Deposit|3 - 4 - 2018
+Transaction|221|444|2|Saving|500|2 - 3 - 2018|hello john|500|Deposit|3 - 4 - 2018
+Transaction|567|777|8|Credit|300|2 - 3 - 2018|hello eliza|300|Deposit|3 - 4 - 2018
+Transaction|453|980|2|Currency|600|2 - 3 - 2018|hello thiago|600|Deposit|3 - 4 - 2018
